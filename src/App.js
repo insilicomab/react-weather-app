@@ -1,10 +1,11 @@
 import Title from './components/Title';
 import Form from './components/Form';
-import './App.css';
+import Loading from './components/Loading';
 import Results from './components/Results';
 import { useState } from "react";
+import './App.css';
 import axios from "axios";
-import Loading from './components/Loading'
+
 
 function App() {
   const [city, setCity] = useState("");
