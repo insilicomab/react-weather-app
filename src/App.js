@@ -23,7 +23,7 @@ function App() {
   const getWeather = (e) => {
         e.preventDefault();
         setLoading(true);
-        axios.get(`http://api.weatherapi.com/v1/current.json?key=53535532cc1b4eada6c125622212908&q=${city}&aqi=no`).then(res=>{
+        axios.get(`http://api.weatherapi.com/v1/current.json?key=xxxxxxyyyyyzzzzzzzz&q=${city}&aqi=no`).then(res=>{
           setResults({
             country: res.data.location.country,
             cityName: res.data.location.name,
